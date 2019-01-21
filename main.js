@@ -14,7 +14,7 @@ let playAgainBtn = document.createElement("button");
 playAgainBtn.setAttribute("id", "play-again-btn");
 playAgainBtn.textContent = "Play Again!";
 
-// make a global event listener for the container
+// make an event listener for the entire container that has all 9 boxes in it
 gameContainer.addEventListener("click", (event) => {
 
     // if the target.id matches the boxID, then select that box from the DOM
